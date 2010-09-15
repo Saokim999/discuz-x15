@@ -970,7 +970,7 @@ function check_adminuser($username, $password, $email) {
 	-3 : 用戶名已經存在
 	-4 : email 格式有誤
 	-5 : email 不允許註冊
-	-6 : 該 email 已經被註冊
+	-6 : 該 email 已經được註冊
 	>1 : 表示成功，數值為 UID
 	*/
 	if($uid == -1 || $uid == -2) {

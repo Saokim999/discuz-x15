@@ -11,219 +11,238 @@ $lang = array(
 	'EN_ISO' => 'ENGLISH ISO8859',
 	'EN_UTF8' => 'ENGLIST UTF-8',
 
-	'title_install' => SOFT_NAME.' 安裝嚮導',
-	'agreement_yes' => '我同意',
-	'agreement_no' => '我不同意',
-	'notset' => '不限制',
+	'title_install' => SOFT_NAME.' X Cài đặt',
+	'agreement_yes' => 'Đồng ý',
+	'agreement_no' => 'Không',
+	'notset' => 'Unlimited',
 
-	'message_title' => '提示信息',
-	'error_message' => '錯誤信息',
-	'message_return' => '返回',
-	'return' => '返回',
-	'install_wizard' => '安裝嚮導',
-	'config_nonexistence' => '配置文件不存在',
-	'nodir' => '目錄不存在',
-	'short_open_tag_invalid' => '對不起，請將 php.ini 中的 short_open_tag 設置為 On，否則無法繼續安裝。',
-	'redirect' => '瀏覽器會自動跳轉頁面，無需人工干預。<br>除非當您的瀏覽器沒有自動跳轉時，請點擊這裡',
+	'message_title' => 'Reminder',
+	'error_message' => 'Error Message',
+	'message_return' => 'Return',
+	'return' => 'Return',
+	'install_wizard' => 'Setup Wizard',
+	'config_nonexistence' => 'Configuration file is not exists',
+	'nodir' => 'Thư mục không tồn tại',
+	'short_open_tag_invalid' => 'Sorry, please set "short_open_tag" as On in "php.ini", or Discuz cannot be used',
+	'redirect' => 'The browser will redirect automatically.<br>If your browser do not redirect automatically, please click here',
 
-	'database_errno_2003' => '無法連接數據庫，請檢查數據庫是否啟動，數據庫服務器地址是否正確',
-	'database_errno_1044' => '無法創建新的數據庫，請檢查數據庫名稱填寫是否正確',
-	'database_errno_1045' => '無法連接數據庫，請檢查數據庫用戶名或者密碼是否正確',
-	'database_errno_1064' => 'SQL 語法錯誤',
+	'database_errno_2003' => 'Unable to connect database, please check your database configuration',
+	'database_errno_1044' => 'Unable to create new database, please check your database name',
+	'database_errno_1045' => 'Không connect được với data, check lại tài khoản và mật khẩu data xem nào!',
+	'database_errno_1064' => 'SQL Error',
 
-	'dbpriv_createtable' => '沒有CREATE TABLE權限，無法繼續安裝',
-	'dbpriv_insert' => '沒有INSERT權限，無法繼續安裝',
-	'dbpriv_select' => '沒有SELECT權限，無法繼續安裝',
-	'dbpriv_update' => '沒有UPDATE權限，無法繼續安裝',
-	'dbpriv_delete' => '沒有DELETE權限，無法繼續安裝',
-	'dbpriv_droptable' => '沒有DROP TABLE權限，無法安裝',
+	'dbpriv_createtable' => 'No "CREATE TABLE" Permission',
+	'dbpriv_insert' => 'No "INSERT" Permission',
+	'dbpriv_select' => 'No "SELECT" Permission',
+	'dbpriv_update' => 'No "UPDATE" Permission',
+	'dbpriv_delete' => 'No "DELETE" Permission',
+	'dbpriv_droptable' => 'No "DROP TABLE" Permission',
 
-	'db_not_null' => '數據庫中已經安裝過 UCenter, 繼續安裝會清空原有數據。',
-	'db_drop_table_confirm' => '繼續安裝會清空全部原有數據，您確定要繼續嗎?',
+	'db_not_null' => 'You have already installed UCenter. If you continue to install, the orignal data will be cleaned.',
+	'db_drop_table_confirm' => 'Continue will clean orignal data, are you sure?',
 
-	'writeable' => '可寫',
-	'unwriteable' => '不可寫',
-	'old_step' => '上一步',
-	'new_step' => '下一步',
+	'writeable' => 'Được ghi',
+	'unwriteable' => 'Chưa được ghi',
+	'old_step' => 'Quay lại',
+	'new_step' => 'Kế tiếp',
 
-	'database_errno_2003' => '無法連接數據庫，請檢查數據庫是否啟動，數據庫服務器地址是否正確',
-	'database_errno_1044' => '無法創建新的數據庫，請檢查數據庫名稱填寫是否正確',
-	'database_errno_1045' => '無法連接數據庫，請檢查數據庫用戶名或者密碼是否正確',
+	'database_errno_2003' => 'Unable to connect database, please check your database configuration',
+	'database_errno_1044' => 'Unable to create new database, please check your database name',
+	'database_errno_1045' => 'Unable to connect database, please check your username and password',
 
-	'step_env_check_title' => '開始安裝',
-	'step_env_check_desc' => '環境以及文件目錄權限檢查',
-	'step_db_init_title' => '安裝數據庫',
-	'step_db_init_desc' => '正在執行數據庫安裝',
+	'step_env_check_title' => 'Bắt đầu cài đặt',
+	'step_env_check_desc' => 'Kiểm tra môi trường cài đặt',
+	'step_db_init_title' => 'Điền thông số',
+	'step_db_init_desc' => 'Cài đặt dữ liệu...',
 	
-	'step1_file' => '目錄文件',
-	'step1_need_status' => '所需狀態',
-	'step1_status' => '當前狀態',
-	'not_continue' => '請將以上紅叉部分修正再試',
+	'step1_file' => 'Filename',
+	'step1_need_status' => 'Need',
+	'step1_status' => 'Current',
+	'not_continue' => 'Please amend those displayed in red, then try again',
 
-	'tips_dbinfo' => '填寫數據庫信息',
+	'tips_dbinfo' => 'Điền thông tin database',
 	'tips_dbinfo_comment' => '',
-	'tips_admininfo' => '填寫管理員信息',
-	'tips_admininfo_comment' => '請牢記 UCenter 創始人密碼，憑該密碼登陸 UCenter。',
-	'step_ext_info_title' => '安裝成功',
-	'step_ext_info_desc' => '點擊進入登陸',
+	'tips_admininfo' => 'Tài khoản Admin',
+	'tips_admininfo_comment' => 'Ghi nhớ mật khẩu của người cài UCenter，Mật khẩu đăng nhập UCenter。',
+	'step_ext_info_title' => 'Cài đặt thành công',
+	'step_ext_info_desc' => 'Click vào đây để đăng nhập',
 
-	'ext_info_succ' => '安裝成功',
-	'install_locked' => '安裝鎖定，已經安裝過了，如果您確定要重新安裝，請到服務器上刪除<br /> '.str_replace(ROOT_PATH, '', $lockfile),
-	'error_quit_msg' => '您必須解決以上問題，安裝才可以繼續',
+	'ext_info_succ' => 'Đã cài thanh công.',
+	'install_locked' => 'Installation is locked due to previous installation, if you want to install again, please delete <br /> '.str_replace(ROOT_PATH, '', $lockfile),
+	'error_quit_msg' => 'You must solve the problem above, then continue',
 
-	'step_app_reg_title' => '設置運行環境',
-	'step_app_reg_desc' => '檢測服務器環境以及設置 UCenter',
-	'tips_ucenter' => '請填寫 UCenter 相關信息',
-	'tips_ucenter_comment' => 'UCenter 是 Comsenz 公司產品的核心服務程序，Discuz! Board 的安裝和運行依賴此程序。如果您已經安裝了 UCenter，請填寫以下信息。否則，請到 <a href="http://www.discuz.com/" target="blank">Comsenz 產品中心</a> 下載並且安裝，然後再繼續。',
+	'step_app_reg_title' => 'Phương pháp cài đặt',
+	'step_app_reg_desc' => 'Kiểm tra máy chủ và thiết lập cài đặt UCenter',
+	'tips_ucenter' => 'Please fill in related information of UCenter',
+	'tips_ucenter_comment' => 'UCenter is a core software of Comsenz. Discuz! Board is required this program. If you have installed UCenter, please fill the Information of UCenter, or please goto <a href="http://www.discuz.com/" target="blank">Comsenz Products Center</a> to download Chinese Simplified UCenter, or goto <a href="http://discuzviet.net">DiscuzViet</a> download Vietnamese UCenter and install it, then continue',
 
-	'advice_mysql_connect' => '請檢查 mysql 模塊是否正確加載',
-	'advice_fsockopen' => '該函數需要 php.ini 中 allow_url_fopen 選項開啟。請聯繫空間商，確定開啟了此項功能',
-	'advice_gethostbyname' => '是否php配置中禁止了gethostbyname函數。請聯繫空間商，確定開啟了此項功能',
-	'advice_file_get_contents' => '該函數需要 php.ini 中 allow_url_fopen 選項開啟。請聯繫空間商，確定開啟了此項功能',
-	'advice_xml_parser_create' => '該函數需要 PHP 支持 XML。請聯繫空間商，確定開啟了此項功能',
+	'advice_mysql_connect' => 'Please make sure to load mysql module correctly',
+	'advice_fsockopen' => 'You need to set "allow_url_fopen" as on in "php.ini". Please contact space provider to make sure it is enabled',
+	'advice_gethostbyname' => '"gethostbyname" function is needed. Please contact space provider to make sure it is enabled',
+	'advice_file_get_contents' => 'You need to set "allow_url_fopen" as on in "php.ini". Please contact space provider to make sure it is enabled',
+	'advice_xml_parser_create' => 'This function need XML support in PHP. Please contact space provider to make sure it is enabled',
 
-	'ucurl' => 'UCenter 的 URL',
-	'ucpw' => 'UCenter 創始人密碼',
+	'ucurl' => 'UCenter\'s URL',
+	'ucpw' => 'UCenter Founder Password',
 
-	'tips_siteinfo' => '請填寫站點信息',
-	'sitename' => '站點名稱',
-	'siteurl' => '站點 URL',
+	'tips_siteinfo' => 'Fill in Site Information',
+	'sitename' => 'Site Name',
+	'siteurl' => 'Site URL',
 
-	'forceinstall' => '強制安裝',
-	'dbinfo_forceinstall_invalid' => '當前數據庫當中已經含有同樣表前綴的數據表，您可以修改「表名前綴」來避免刪除舊的數據，或者選擇強制安裝。強制安裝會刪除舊數據，且無法恢復',
+	'forceinstall' => 'Force Install',
+	'dbinfo_forceinstall_invalid' => 'You may modify talbe prefix to prevent data loss, because current database contains data with same table prefix; force install will delete all previous data.',
 
-	'click_to_back' => '點擊返回上一步',
-	'adminemail' => '系統信箱 Email',
-	'adminemail_comment' => '用於發送程序錯誤報告',
-	'dbhost_comment' => '數據庫服務器地址, 一般為 localhost',
-	'tablepre_comment' => '同一數據庫運行多個論壇時，請修改前綴',
-	'forceinstall_check_label' => '我要刪除數據，強制安裝 !!!',
+	'click_to_back' => 'Click here to return',
+	'adminemail' => 'Email',
+	'adminemail_comment' => 'Sử dụng để báo cáo lỗi...',
+	'dbhost_comment' => 'Thường điền là : localhost',
+	'tablepre_comment' => 'Sửa prefix theo ý bạn để có thể cài nhiều discuz trên 1 database (có thể để trống)',
+	'forceinstall_check_label' => 'Cứ cài dù sẽ xóa data tương tự trước đó!!!',
 
-	'uc_url_empty' => '您沒有填寫 UCenter 的 URL，請返回填寫',
-	'uc_url_invalid' => 'URL 格式錯誤',
-	'uc_url_unreachable' => 'UCenter 的 URL 地址可能填寫錯誤，請檢查',
-	'uc_ip_invalid' => '無法解析該域名，請填寫站點的 IP</font>',
-	'uc_admin_invalid' => 'UC創始人密碼錯誤，請重新填寫',
-	'uc_data_invalid' => '通信失敗，請檢查 UC的URL 地址是否正確 ',
-	'ucenter_ucurl_invalid' => 'UC的URL為空，或者格式錯誤，請檢查',
-	'ucenter_ucpw_invalid' => 'UC的創始人密碼為空，或者格式錯誤，請檢查',
-	'siteinfo_siteurl_invalid' => '站點URL為空，或者格式錯誤，請檢查',
-	'siteinfo_sitename_invalid' => '站點名稱為空，或者格式錯誤，請檢查',
-	'dbinfo_dbhost_invalid' => '數據庫服務器為空，或者格式錯誤，請檢查',
-	'dbinfo_dbname_invalid' => '數據庫名為空，或者格式錯誤，請檢查',
-	'dbinfo_dbuser_invalid' => '數據庫用戶名為空，或者格式錯誤，請檢查',
-	'dbinfo_dbpw_invalid' => '數據庫密碼為空，或者格式錯誤，請檢查',
-	'dbinfo_adminemail_invalid' => '系統郵箱為空，或者格式錯誤，請檢查',
-	'dbinfo_tablepre_invalid' => '表名前綴不能包含字符".",不能以數字開頭',
-	'admininfo_username_invalid' => '管理員用戶名為空，或者格式錯誤，請檢查',
-	'admininfo_email_invalid' => '管理員Email為空，或者格式錯誤，請檢查',
-	'admininfo_ucfounderpw_invalid' => '管理員密碼為空，請填寫',
-	'admininfo_ucfounderpw2_invalid' => '兩次密碼不一致，請檢查',
+	'uc_url_empty' => 'UCenter URL is empty, please return to fill',
+	'uc_url_invalid' => 'Invalid URL Format',
+	'uc_url_unreachable' => 'UCenter URL may be error, please check',
+	'uc_ip_invalid' => 'Unable to connect to this domain, please input the IP',
+	'uc_admin_invalid' => 'UCenter Founder\'s Password Error',
+	'uc_data_invalid' => 'Connect Faild, please check your UCenter\'s URL ',
+	'ucenter_ucurl_invalid' => 'UCenter\'s URL is blank or format error, please check',
+	'ucenter_ucpw_invalid' => 'UCenter Founder\'s Password is blank or format error, please check',
+	'siteinfo_siteurl_invalid' => 'Site URL is empty or format error, please check',
+	'siteinfo_sitename_invalid' => 'Site name is empty or format error, please check',
+	'dbinfo_dbhost_invalid' => 'DB Host is empty or format error, please check',
+	'dbinfo_dbname_invalid' => 'DB Name is empty or format error, please check',
+	'dbinfo_dbuser_invalid' => 'DB username is empty or format error, please check',
+	'dbinfo_dbpw_invalid' => 'DB password is empty or format error, please check',
+	'dbinfo_adminemail_invalid' => 'System Email is empty or format error, please check',
+	'dbinfo_tablepre_invalid' => 'Database Table Prefix is blank or format error, please check',
+	'admininfo_username_invalid' => 'Admin Username is blank or format error, please check',
+	'admininfo_email_invalid' => 'Admin Email is blank or format error, please check',
+	'admininfo_password_invalid' => 'Admin Password is blank',
+	'admininfo_password2_invalid' => 'Two Passwords do not match',
 
-	'username' => '管理員賬號',
-	'email' => '管理員 Email',
-	'password' => '管理員密碼',
-	'password_comment' => '管理員密碼不能為空',
-	'password2' => '重複密碼',
+	'username' => 'Tên',
+	'email' => 'Email',
+	'password' => 'Mật khẩu',
+	'password_comment' => 'Để trống kìa, điền vào',
+	'password2' => 'Xác nhận mật khẩu',
 
-	'admininfo_invalid' => '管理員信息不完整，請檢查管理員賬號，密碼，郵箱',
-	'dbname_invalid' => '數據庫名為空，請填寫數據庫名稱',
-	'admin_username_invalid' => '非法用戶名，用戶名長度不應當超過 15 個英文字符，且不能包含特殊字符，一般是中文，字母或者數字',
-	'admin_password_invalid' => '密碼和上面不一致，請重新輸入',
-	'admin_email_invalid' => 'Email 地址錯誤，此郵件地址已經被使用或者格式無效，請更換為其他地址',
-	'admin_invalid' => '您的信息管理員信息沒有填寫完整，請仔細填寫每個項目',
-	'admin_exist_password_error' => '該用戶已經存在，如果您要設置此用戶為論壇的管理員，請正確輸入該用戶的密碼，或者請更換論壇管理員的名字',
+	'admininfo_invalid' => 'Chưa điền hết thông tin admin',
+	'dbname_invalid' => 'Điền tên database đi',
+	'admin_username_invalid' => 'Tên tài khoản không phù hợn',
+	'admin_password_invalid' => 'Mật khẩu xác nhận chả giống trên gì cả?',
+	'admin_email_invalid' => 'Email sai rồi',
+	'admin_invalid' => 'Please input all informations of admin',
+	'admin_exist_password_error' => 'This user is exists, if you want to set it as admin, please input its password',
 
-	'tagtemplates_subject' => '標題',
-	'tagtemplates_uid' => '用戶 ID',
-	'tagtemplates_username' => '發帖者',
-	'tagtemplates_dateline' => '日期',
-	'tagtemplates_url' => '主題地址',
+	'tagtemplates_subject' => 'Subject',
+	'tagtemplates_uid' => 'UID',
+	'tagtemplates_username' => 'Author',
+	'tagtemplates_dateline' => 'Date',
+	'tagtemplates_url' => 'Topic URL',
 
-	'uc_version_incorrect' => '您的 UCenter 服務端版本過低，請升級 UCenter 服務端到最新版本，並且升級，下載地址：http://www.comsenz.com/ 。',
-	'config_unwriteable' => '安裝嚮導無法寫入配置文件, 請設置 config.inc.php 程序屬性為可寫狀態(777)',
+	'uc_version_incorrect' => 'Your UCenter Version is too old, please upgrade it. Vietnamese UCenter:http://code.google.com/p/vietdiscuz/downloads/list, Official:http://www.comsenz.com/',
+	'config_unwriteable' => 'Configuration file is unwriteable, please set "config.inc.php" to writeable(777)',
 
-	'install_in_processed' => '正在安裝...',
-	'install_succeed' => '安裝用戶中心成功，點擊進入下一步',
-	'license' => '<div class="license"><h1>中文版授權協議 適用於中文用戶</h1>
+	'install_in_processed' => 'Installing...',
+	'install_succeed' => 'Installed successfully, click here to enter forum',
+	'license' => '<div class="license"><h1>Discuz! License</h1>
 
-<p>版權所有 (c) 2001-2010，康盛創想（北京）科技有限公司保留所有權利。</p>
+<p>Vietnamese Discuz!X is translated by DiscuzVietNam Community, http://code.google.com/p/discuz-x-viet-nam/.</p>
 
-<p>感謝您選擇 UCenter 產品。希望我們的努力能為您提供一個高效快速和強大的站點解決方案。</p>
+<p>Copyright (c) 2001-2009, Comsenz (Beijing) Technology Co. Ltd. All rights reserved.</p>
 
-<p>康盛創想（北京）科技有限公司為 UCenter 產品的開發商，依法獨立擁有 UCenter 產品著作權。康盛創想（北京）科技有限公司網址為 http://www.comsenz.com，UCenter 官方網站網址為 http://www.discuz.com，UCenter 官方討論區網址為 http://www.discuz.net。</p>
+<p>Thank you For choosing Discuz! Forum products. We hope that our efforts can provide you with an efficient fast and strong community forum solutions.</p>
 
-<p>UCenter 著作權已在中華人民共和國國家版權局註冊，著作權受到法律和國際公約保護。使用者：無論個人或組織、盈利與否、用途如何（包括以學習和研究為目的），均需仔細閱讀本協議，在理解、同意、並遵守本協議的全部條款後，方可開始使用 UCenter 軟件。</p>
+<p>Discuz! English full name is Crossday Discuz! Board.</p>
 
-<p>本授權協議適用且僅適用於 UCenter 1.x 版本，康盛創想（北京）科技有限公司擁有對本授權協議的最終解釋權。</p>
+<p>Comsenz (Beijing) Technology Limited for Discuz! Product developers, in accordance with the law independently owned Discuz! Products Copyright (China State Copyright Bureau Copyright registration number 2006 SR11895).</p>
 
-<h3>I. 協議許可的權利</h3>
+<p>Comsenz (Beijing) Technology Limited website: http://www.comsenz.com</p>
+
+<p>Discuz! Offical website: http://www.discuz.com.</p>
+
+<p>Discuz! Offical Forum: http://www.discuz.net.</p>
+
+<p>Discuz! Vietnam Supporting Forum: http://www.discuzviet.net & http://traitimyenbai.net.</p>
+
+<p>Discuz! Copyrights in the People\'s Republic of the State Copyright Bureau registration, copyright law and international conventions to protect. Users: Regardless of the individual or organization, profit or not, how to use (Including for the purpose of study and research), will be required to read the agreement carefully, understand, agree and comply with all the terms of this agreement only after using Discuz! Software. 
+
+</p>
+
+<p>The license application and only applies to Discuz! 7.x.x version, Comsenz (Beijing) Technology Limited of the licensing agreement with the power of final interpretation. 
+
+</p>
+
+<h3>I. License Agreement</h3>
 <ol>
-<li>您可以在完全遵守本最終用戶授權協議的基礎上，將本軟件應用於非商業用途，而不必支付軟件版權授權費用。</li>
-<li>您可以在協議規定的約束和限制範圍內修改 UCenter 源代碼(如果被提供的話)或界面風格以適應您的網站要求。</li>
-<li>您擁有使用本軟件構建的網站中全部會員資料、文章及相關信息的所有權，並獨立承擔與文章內容的相關法律義務。</li>
-<li>獲得商業授權之後，您可以將本軟件應用於商業用途，同時依據所購買的授權類型中確定的技術支持期限、技術支持方式和技術支持內容，自購買時刻起，在技術支持期限內擁有通過指定的方式獲得指定範圍內的技術支持服務。商業授權用戶享有反映和提出意見的權力，相關意見將被作為首要考慮，但沒有一定被採納的承諾或保證。</li>
+<li>You can fully comply with the end-user license agreement on the basis of this software will be used for non-commercial purposes without having to pay for software copyright licensing fees.</li>
+<li>You can bound by the provisions of the agreement and limits Laws Discuz! Source code (if it was provided) or interface style to suit your site requirements. </li>
+<li>Use of this software you have a forum in the construction of all Member information, articles and related information ownership, and commitment to independent of the contents of the article and related legal obligations.</li>
+<li>Obtain commercial licenses, you can use the software for commercial applications, based on the type purchased by the authority identified in the technical support period, technical support means and technical support, Since the purchase moment onwards, in the technical support within the period specified by the way has been designated within the scope of the technical support services. Commercial authorized users enjoy views and reflect the power of relevant views Will be a primary consideration, but did not necessarily accept the assurances or guarantees. </li>
 </ol>
 
-<h3>II. 協議規定的約束和限制</h3>
+<h3>II. Bound by the provisions of the agreement and limitations</h3>
 <ol>
-<li>未獲商業授權之前，不得將本軟件用於商業用途（包括但不限於企業網站、經營性網站、以營利為目或實現盈利的網站）。購買商業授權請登陸http://www.discuz.com參考相關說明，也可以致電8610-51657885瞭解詳情。</li>
-<li>不得對本軟件或與之關聯的商業授權進行出租、出售、抵押或發放子許可證。</li>
-<li>無論如何，即無論用途如何、是否經過修改或美化、修改程度如何，只要使用 UCenter 的整體或任何部分，未經書面許可，頁面頁腳處的 UCenter 名稱和康盛創想（北京）科技有限公司下屬網站（http://www.comsenz.com、http://www.discuz.com 或 http://www.discuz.net） 的鏈接都必須保留，而不能清除或修改。</li>
-<li>禁止在 UCenter 的整體或任何部分基礎上以發展任何派生版本、修改版本或第三方版本用於重新分發。</li>
-<li>如果您未能遵守本協議的條款，您的授權將被終止，所被許可的權利將被收回，並承擔相應法律責任。</li>
+<li>Has not been authorized commercial before, this software may not be used for commercial purposes (including but not limited to the Company\'s Web site, operating site to return a profit for the head or the website). Authorized the purchase of commercial information please visit http://www.discuz.com note, can also call 8610-51657885[China], 60174324844[Malaysia] for details. 
+</li>
+<li>Shall not associated with the software business or authorized rental, sale, mortgage or issuing of permits.</li>
+<li>In any case, whether they use and whether or landscaping revised and amended to what extent, as long as the use Discuz! The whole or any part without the written permission of the forum pages Page Footer The Discuz! Name and (Beijing) Technology Limited subsidiary website (http://www.comsenz.com, http://www.discuz.com, http://www.discuz.net) Link must be retained, but not removed or amended. 
+</li>
+<li>prohibited in Discuz! The whole or any part of any development on the basis of a derivative version, revised version or third parties for re-distributed version. </li>
+<li>If you failed to comply with the provisions of this Agreement, your mandate will be terminated, the licensee the right to be resumed, and assume corresponding legal responsibility.</li>
 </ol>
 
-<h3>III. 有限擔保和免責聲明</h3>
+<h3>III. Limited guarantees and Disclaimer</h3>
 <ol>
-<li>本軟件及所附帶的文件是作為不提供任何明確的或隱含的賠償或擔保的形式提供的。</li>
-<li>用戶出於自願而使用本軟件，您必須瞭解使用本軟件的風險，在尚未購買產品技術服務之前，我們不承諾提供任何形式的技術支持、使用擔保，也不承擔任何因使用本軟件而產生問題的相關責任。</li>
-<li>康盛創想（北京）科技有限公司不對使用本軟件構建的網站中的文章或信息承擔責任。</li>
+<li>attached to the software and documents as not to provide any explicit or implied in the form of compensation or guarantees provided. 
+</li>
+<li>users voluntary use of this software, you must understand the risks of using this software, technical services have not yet purchased products before, we do not provide any form of commitment to technical support, the use of guarantees, Nor have any of this software by the use of the relevant issues arising from the responsibility. </li>
+<li>Comsenz (Beijing) Technology Limited use of the wrong forum for software in the construction of articles or information held accountable. </li>
 </ol>
 
-<p>有關 UCenter 最終用戶授權協議、商業授權與技術服務的詳細內容，均由 UCenter 官方網站獨家提供。康盛創想（北京）科技有限公司擁有在不事先通知的情況下，修改授權協議和服務價目表的權力，修改後的協議或價目表對自改變之日起的新授權用戶生效。</p>
+<p>relevant Discuz! End-user license agreement, commercial licenses and technical details of the service by the Discuz! Provide exclusive official website. Hong Sing Chong think (Beijing) Technology Limited has not Prior notification, amending licensing agreements and service rates powers, the revised price list on the agreement or on the date of change since the entry into force of the new authorized users.</p>
 
-<p>電子文本形式的授權協議如同雙方書面簽署的協議一樣，具有完全的和等同的法律效力。您一旦開始安裝 UCenter，即被視為完全理解並接受本協議的各項條款，在享有上述條款授予的權力的同時，受到相關的約束和限制。協議許可範圍以外的行為，將直接違反本授權協議並構成侵權，我們有權隨時終止授權，責令停止損害，並保留追究相關責任的權力。</p></div>',
+<p>electronic copy of the authorization form of a written agreement as the two sides signed the agreement as a complete and equivalent legal effect. Once you start the installation Discuz! Defined as fully understood and accepted The provisions of this Agreement, in the enjoyment of the above provisions of the powers conferred by the relevant constraints and limitations. Outside the scope of the license agreement, will be a direct violation of the license agreement and an infringement, We have the right to terminate the mandate at any time, order a stop damage, and retain the power to hold responsible. 
+</p></div>',
 
-	'uc_installed' => '您已經安裝過 UCenter，如果需要重新安裝，請刪除 data/install.lock 文件',
-	'i_agree' => '我已仔細閱讀，並同意上述條款中的所有內容',
-	'supportted' => '支持',
-	'unsupportted' => '不支持',
-	'max_size' => '支持/最大尺寸',
-	'project' => '項目',
-	'ucenter_required' => 'UCenter 所需配置',
-	'ucenter_best' => 'UCenter 最佳',
-	'curr_server' => '當前服務器',
-	'env_check' => '環境檢查',
-	'os' => '操作系統',
-	'php' => 'PHP 版本',
-	'attachmentupload' => '附件上傳',
-	'unlimit' => '不限制',
-	'version' => '版本',
-	'gdversion' => 'GD 庫',
-	'allow' => '允許',
-	'unix' => '類Unix',
-	'diskspace' => '磁盤空間',
-	'priv_check' => '目錄、文件權限檢查',
-	'func_depend' => '函數依賴性檢查',
-	'func_name' => '函數名稱',
-	'check_result' => '檢查結果',
-	'suggestion' => '建議',
-	'advice_mysql' => '請檢查 mysql 模塊是否正確加載',
-	'advice_fopen' => '該函數需要 php.ini 中 allow_url_fopen 選項開啟。請聯繫空間商，確定開啟了此項功能',
-	'advice_file_get_contents' => '該函數需要 php.ini 中 allow_url_fopen 選項開啟。請聯繫空間商，確定開啟了此項功能',
-	'advice_xml' => '該函數需要 PHP 支持 XML。請聯繫空間商，確定開啟了此項功能',
-	'none' => '無',
+	'i_agree' => 'I Agree',
+	'supportted' => 'Supported',
+	'unsupportted' => 'Unsupported',
+	'max_size' => 'Support/Max Size',
+	'project' => 'Item',
+	'ucenter_required' => 'Require',
+	'ucenter_best' => 'Best',
+	'curr_server' => 'Current',
+	'env_check' => 'Check Environment',
+	'os' => 'System',
+	'php' => 'PHP',
+	'attachmentupload' => 'Upload',
+	'unlimit' => 'Unlimited',
+	'version' => 'Version',
+	'gdversion' => 'GD Lib',
+	'allow' => 'Allow',
+	'unix' => 'Unix',
+	'diskspace' => 'DiskSpace',
+	'priv_check' => 'Check Permission',
+	'func_depend' => 'Check Function',
+	'func_name' => 'Name',
+	'check_result' => 'Result',
+	'suggestion' => 'Suggestion',
+	'advice_mysql' => 'Please check your mysql module has been loaded',
+	'advice_fopen' => 'you must set "allow_url_fopen" in php.ini as on, please contact your space manager',
+	'advice_file_get_contents' => 'you must set "allow_url_fopen" in php.ini as on, please contact your space manager',
+	'advice_xml' => 'This function need PHP support XML, please contact space manager to open it',
+	'none' => 'None',
 
-	'dbhost' => '數據庫服務器',
-	'dbuser' => '數據庫用戶名',
-	'dbpw' => '數據庫密碼',
-	'dbname' => '數據庫名',
-	'tablepre' => '數據表前綴',
+	'dbhost' => 'Máy chủ',
+	'dbuser' => 'Người dùng DB',
+	'dbpw' => 'Mật khẩu DB',
+	'dbname' => 'Tên DB',
+	'tablepre' => 'Prefix',
 
-	'ucfounderpw' => '創始人密碼',
-	'ucfounderpw2' => '重複創始人密碼',
+	'ucfounderpw' => 'UCenter Founder\'s Password',
+	'ucfounderpw2' => 'Repeat Password',
 
-	'create_table' => '建立數據表',
-	'succeed' => '成功',
+	'create_table' => 'Đang chèn dữ liệu',
+	'succeed' => 'OK',
 );
