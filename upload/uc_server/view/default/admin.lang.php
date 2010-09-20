@@ -1,17 +1,17 @@
 <?php
-//Việt hóa bởi khongbanquyen.com, hoàn thiện bởi JaJa
+
 $lang = array(
-	'user_search' => 'Tìm',
-	'user_name' => 'Tên',
-	'user_regdate' => 'Ngày đăng ký',
-	'user_regip' => 'IP',
-	'user_before' => 'Trước',
-	'user_after' => 'Sau',
-	'user_search' => 'Tìm',
-	'user_add' => 'Thêm thành viên',
-	'user_password' => 'Mật khẩu',
-	'user_addsubmit' => 'Submit',
-	'delete' => 'Xóa',
+	'user_search' => '搜索用戶',
+	'user_name' => '用戶名',
+	'user_regdate' => '註冊日期',
+	'user_regip' => '註冊IP',
+	'user_before' => '之前',
+	'user_after' => '之後',
+	'user_search' => '搜 索',
+	'user_add' => '添加用戶',
+	'user_password' => '密碼',
+	'user_addsubmit' => '添 加',
+	'delete' => '刪除',
 	'email' => 'Email',
-	'user_list' => 'Users List',
+	'user_list' => '用戶列表',
 );

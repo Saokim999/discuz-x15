@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <strings>
 	
-	<language type="zh_CN" using="false">
+	<language type="zh_CN" using="true">
 		<item key="inefficacy_save" value="\u8BF7\u5148\u4E0A\u4F20\u56FE\u7247\u6216\u7528\u6444\u50CF\u5934\u62CD\u7167\21" />
 		<item key="camera_muted" value="\u65E0\u6CD5\u8FDE\u63A5\u5230\u6D3B\u52A8\u6444\u50CF\u5934\21" />
 		<item key="camera_not_exist" value="\u6444\u50CF\u5934\u8BBE\u5907\u4E0D\u53EF\u7528\21" />
@@ -102,59 +102,6 @@
 			<value>
 				<![CDATA[
 					<font size='14' color='#FF0000'>\u60a8\u6240\u4f7f\u7528\u7684flash player\u7248\u672c\u904e\u820a, \u8acb\u53ca\u6642<font color='#0000FF'><u>\u66f4\u65b0</u></font></font>
-				]]>
-			</value>
-		</item>
-	</language>
-
-	<language type="zh_EN" using="true">
-		<item key="inefficacy_save" value="Hãy up ảnh hoặc chụp từ webcam\21" />
-		<item key="camera_muted" value="Không kết nối được webcam\21" />
-		<item key="camera_not_exist" value="Không tìm thấy Webcam\21" />
-		<item key="face_save_success" value="Lưu avatar thành công!\21" />
-		<item key="face_save_error" value="Quá trình update lỗi, Vui lòng thử lại\21" />
-		<item key="face_saving" value="Cập nhập avatar...  Please wait..." />
-		<item key="face_save_ioerror" value="I/O error occured during upload\21" />
-		<item key="upload_volume_1M" value="Hãy upload ảnh dung lượng nhỏ hơn 1MB\21" />
-		<item key="upload_type_label" value="Image document" />
-		<item key="upload_type_error" value="Định dạng file sai. Chỉ up ảnh dạng jpg,gif,png" />
-		<item key="upload_uploading" value="Đang load ảnh, Please wait..." />
-		<item key="upload_ioerror" value="I/O Error occur during upload\21" />
-		<item key="upload_httperror" value="HTTP error occured during upload\21" />
-		<item key="upload_securityerror" value="Có lỗi trong thời gian tải ảnh\21" />
-		<item key="upload_progress" value="File uploaded" />
-		<item key="please_select_region" value="Mời bạn chỉnh sửa Avatar" />
-		<item key="browse_file_cancel" value="Hủy\21" />
-		<item key="callback_uploaded_ioerror" value="Tải ảnh lên thất bại\21" />
-		<item key="uploaded_invalid_type" value="File up lên không phải là ảnh\21" />
-		<item key="preview_note" value="Sửa Avatar thành công. Ảnh sẽ được tạo 3 cỡ khác nhau\3A" />
-		<item key="gif_submitting" value="Submitting..." />
-		<item key="gif_reopen" value="Reopen..." />
-		<item key="gif_frame_overflow" value="Frame overflow..." />
-		<item key="button_browse" value="Chọn ảnh" />
-		<item key="button_camera_screen" value="Từ Webcam" />
-		<item key="button_reset" value="Reset" />
-		<item key="button_return" value="Trở lại" />
-		<item key="button_save" value="Lưu Avatar" />
-		<item key="button_submit" value="Ok\20" />
-		<item key="tab_upload" value="Upload File" />
-		<item key="tab_camera" value="Web Cam" />
-		<item key="note_right_text" value="Ấn nút chọn ảnh" />
-		<item key="note_right_move" value="Move" />
-		<item key="note_right_zoom" value="Resize" />
-		<item key="note_right_face" value="Mẫu Avatar" />
-		<item key="note_main" value="Chọn một ảnh từ webcam làm Avatar" />
-
-		<item key="note_success" value="Success!" />
-		<item key="note_3size" value="Avatar 3 size" />
-		<item key="button_finish" value="Finish" />
-		<item key="upload_downing" value="Downing..." />
-		<item key="camera_no_device" value="Camera not found" />
-		<item key="js_connect_error" value="javascript connect error" />
-		<item key="player_ver_error">
-			<value>
-				<![CDATA[
-					<font size='14' color='#FF0000'>You need flash player to upload<font color='#0000FF'><u>Avatar</u></font></font>
 				]]>
 			</value>
 		</item>
