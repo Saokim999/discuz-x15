@@ -273,7 +273,7 @@ function Ajax(recvType, waitId) {
 
 	var aj = new Object();
 
-	aj.loading = '請稍候...';
+	aj.loading = 'Đợi chút...';
 	aj.recvType = recvType ? recvType : 'XML';
 	aj.waitId = waitId ? $(waitId) : null;
 
@@ -338,7 +338,7 @@ function Ajax(recvType, waitId) {
 				aj.resultHandle(aj.XMLHttpRequest.responseText, aj);
 			} else if(aj.recvType == 'XML') {
 				if(!aj.XMLHttpRequest.responseXML || !aj.XMLHttpRequest.responseXML.lastChild || aj.XMLHttpRequest.responseXML.lastChild.localName == 'parsererror') {
-					aj.resultHandle('<a href="' + aj.targetUrl + '" target="_blank" style="color:red">內部錯誤，無法顯示此內容</a>' , aj);
+					aj.resultHandle('<a href="' + aj.targetUrl + '" target="_blank" style="color:red">Lỗi, không thể hiển thị nội dung này</a>' , aj);
 				} else {
 					aj.resultHandle(aj.XMLHttpRequest.responseXML.lastChild.firstChild.nodeValue, aj);
 				}
@@ -560,7 +560,7 @@ function ajaxpost(formid, showid, waitid, showidclass, submitbtn, recall) {
 				}
 			}
 		} catch(e) {
-			s = '內部錯誤，無法顯示此內容';
+			s = 'Lỗi, không thể hiển thị nội dung này';
 		}
 
 		if(s != '' && s.indexOf('ajaxerror') != -1) {
@@ -689,7 +689,7 @@ function stringxor(s1, s2) {
 
 function showloading(display, waiting) {
 	var display = display ? display : 'block';
-	var waiting = waiting ? waiting : '請稍候...';
+	var waiting = waiting ? waiting : 'Vui lòng chờ...';
 	$('ajaxwaitid').innerHTML = waiting;
 	$('ajaxwaitid').style.display = display;
 }
@@ -1264,7 +1264,7 @@ function showDialog(msg, mode, t, func, cover, funccancel, leftmsg) {
 	menuObj.id = menuid;
 	$('append_parent').appendChild(menuObj);
 	var s = '<table cellpadding="0" cellspacing="0" class="fwin"><tr><td class="t_l"></td><td class="t_c"></td><td class="t_r"></td></tr><tr><td class="m_l">&nbsp;&nbsp;</td><td class="m_c"><h3 class="flb"><em>';
-	s += t ? t : '提示信息';
+	s += t ? t : 'Thông báo';
 	s += '</em><span><a href="javascript:;" id="fwin_dialog_close" class="flbc" onclick="hideMenu(\'' + menuid + '\', \'dialog\')" title="關閉">關閉</a></span></h3>';
 	if(mode == 'info') {
 		s += msg ? msg : '';
@@ -1399,7 +1399,7 @@ function AC_FL_RunContent() {
 			str += '></embed>';
 		}
 	} else {
-		str = '此內容需要 Adobe Flash Player 9.0.124 或更高版本<br /><a href="http://www.adobe.com/go/getflashplayer/" target="_blank"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="下載 Flash Player" /></a>';
+		str = 'Nội dung này đòi hỏi Adobe Flash Player 9.0.124 hoặc mới hơn<br /><a href="http://www.adobe.com/go/getflashplayer/" target="_blank"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Plugin Flash Player" /></a>';
 	}
 	return str;
 }
@@ -1819,27 +1819,27 @@ function showselect(obj, inpid, t, rettype) {
 		$('append_parent').appendChild(div);
 		s = '';
 		if(!t) {
-			s += showselect_row(inpid, '一天', 1, 0, rettype);
-			s += showselect_row(inpid, '一周', 7, 0, rettype);
-			s += showselect_row(inpid, '一個月', 30, 0, rettype);
-			s += showselect_row(inpid, '三個月', 90, 0, rettype);
-			s += showselect_row(inpid, '自定義', -2);
+			s += showselect_row(inpid, '1 ngày', 1, 0, rettype);
+			s += showselect_row(inpid, '1 tuần', 7, 0, rettype);
+			s += showselect_row(inpid, '1 tháng', 30, 0, rettype);
+			s += showselect_row(inpid, '3 tháng', 90, 0, rettype);
+			s += showselect_row(inpid, 'Tùy chọn', -2);
 		} else {
 			if($(t)) {
 				var lis = $(t).getElementsByTagName('LI');
 				for(i = 0;i < lis.length;i++) {
 					s += '<a href="javascript:;" onclick="$(\'' + inpid + '\').value = this.innerHTML">' + lis[i].innerHTML + '</a>';
 				}
-				s += showselect_row(inpid, '自定義', -1);
+				s += showselect_row(inpid, 'Tùy chọn', -1);
 			} else {
 				s += '<a href="javascript:;" onclick="$(\'' + inpid + '\').value = \'0\'">永久</a>';
-				s += showselect_row(inpid, '7 天', 7, 1, rettype);
-				s += showselect_row(inpid, '14 天', 14, 1, rettype);
-				s += showselect_row(inpid, '一個月', 30, 1, rettype);
-				s += showselect_row(inpid, '三個月', 90, 1, rettype);
-				s += showselect_row(inpid, '半年', 182, 1, rettype);
-				s += showselect_row(inpid, '一年', 365, 1, rettype);
-				s += showselect_row(inpid, '自定義', -1);
+				s += showselect_row(inpid, '7 ngày', 7, 1, rettype);
+				s += showselect_row(inpid, '14 ngày', 14, 1, rettype);
+				s += showselect_row(inpid, '1 tháng', 30, 1, rettype);
+				s += showselect_row(inpid, '3 tháng', 90, 1, rettype);
+				s += showselect_row(inpid, '6 tháng', 182, 1, rettype);
+				s += showselect_row(inpid, '1 năm', 365, 1, rettype);
+				s += showselect_row(inpid, 'Tùy chọn', -1);
 			}
 		}
 		$(div.id).innerHTML = s;
@@ -2618,7 +2618,7 @@ function setCopy(text, msg){
 			showPrompt(null, null, '<span>' + msg + '</span>', 1500);
 		}
 	} else {
-		var msg = '<div class="c"><div style="width: 200px; text-align: center; text-decoration:underline;">點此複製到剪貼板</div>' +
+		var msg = '<div class="c"><div style="width: 200px; text-align: center; text-decoration:underline;">Bấm vào đây để sao chép</div>' +
 		AC_FL_RunContent('id', 'clipboardswf', 'name', 'clipboardswf', 'devicefont', 'false', 'width', '200', 'height', '40', 'src', STATICURL + 'image/common/clipboard.swf', 'menu', 'false',  'allowScriptAccess', 'sameDomain', 'swLiveConnect', 'true', 'wmode', 'transparent', 'style' , 'margin-top:-20px') + '</div>';
 		showDialog(msg, 'info');
 		text = text.replace(/[\xA0]/g, ' ');
@@ -2671,13 +2671,13 @@ function setDoodle(fid, oid, url, tid, from) {
 }
 
 function searchFocus(obj) {
-	if(obj.value == '請輸入搜索內容') {
+	if(obj.value == 'Nhập từ khóa cần tìm') {
 		obj.value = '';
 	}
 }
 function searchBlur(obj) {
 	if(obj.value == '' ) {
-		obj.value = '請輸入搜索內容';
+		obj.value = 'Nhập từ khóa cần tìm';
 	}
 }
 function initSearchmenu() {
@@ -2766,12 +2766,12 @@ function widthauto(obj) {
 		}
 		HTMLNODE.className += ' widthauto';
 		setcookie('widthauto', 1, 86400 * 30);
-		obj.innerHTML = '切換到窄版';
+		obj.innerHTML = 'Thu nhỏ';
 	} else {
 		$('css_widthauto').disabled = true;
 		HTMLNODE.className = HTMLNODE.className.replace(' widthauto', '');
 		setcookie('widthauto', 0, -1);
-		obj.innerHTML = '切換到寬版';
+		obj.innerHTML = 'Mở rộng';
 	}
 	hideMenu();
 }
@@ -2828,9 +2828,9 @@ function checksec(type, idhash, showmsg, recall) {
 			obj.innerHTML = '<img src="'+ IMGDIR + '/check_error.gif" width="16" height="16" class="vm" />';
 			if(showmsg) {
 				if(type == 'code') {
-					showDialog('驗證碼錯誤，請重新填寫');
+					showDialog('Mã lỗi，vui lòng điền lại');
 				} else if(type == 'qaa') {
-					showDialog('驗證問答錯誤，請重新填寫');
+					showDialog('xác minh lỗi，vui lòng điền lại');
 				}
 				recall(0);
 			}
@@ -2910,7 +2910,7 @@ function succeedhandle_ls(location, str, param) {
 		parent.location.href = location;
 	} else {
 		setTimeout('parent.location.href = location', 2000);
-		showDialog(str, 'notice', null, null, 0, null, '登錄中，請稍後...');
+		showDialog(str, 'notice', null, null, 0, null, 'Đăng nhập, vui lòng chờ...');
 	}
 }
 
@@ -2958,7 +2958,7 @@ function noticeTitle() {
 }
 function noticeTitleFlash() {
 	if(NOTICETITLE.flashNumber < 5 || NOTICETITLE.flashNumber > 4 && !NOTICETITLE['State']) {
-		document.title = (NOTICETITLE['State'] ? '【　　　】' : '【新提醒】') + NOTICETITLE['oldTitle'];
+		document.title = (NOTICETITLE['State'] ? '【　　　】' : '【Nhắc nhở】') + NOTICETITLE['oldTitle'];
 		NOTICETITLE['State'] = !NOTICETITLE['State'];
 	}
 	NOTICETITLE.flashNumber = NOTICETITLE.flashNumber < NOTICETITLE.sleep ? ++NOTICETITLE.flashNumber : 0;
