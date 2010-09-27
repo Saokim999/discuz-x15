@@ -170,7 +170,7 @@ $lang = array (
   'push_people' => '推送者',
 
   'action_invalid' => '請選擇要進行的操作',
-  'all' => '全部',
+  'all' => 'Tất cả',
   'article_new' => '新文章',
   'article_not_choose' => '請選擇要操作的文章',
   'article_operation' => '操作',

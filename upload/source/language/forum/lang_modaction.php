@@ -47,7 +47,7 @@ $lang = array
 	'DWN' => '下沉',
 
 	'MOV' => '移動',
-	'CPY' => '複製',
+	'CPY' => 'Sao chép',
 	'TYP' => '分類',
 
 	'RFD' => '強制退款',
