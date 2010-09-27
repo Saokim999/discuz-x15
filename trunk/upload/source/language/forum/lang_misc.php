@@ -29,11 +29,11 @@ $lang = array
 	'post_edithtml_regexp' => '/^\[i=s\] 本帖最後由 .*? 於 .*? 編輯 \[\/i\]&lt;br \/&gt;&lt;br \/&gt;/s',
 	'post_editnobbcode' => '[ 本帖最後由 {editor} 於 {edittime} 編輯 ]\n\n',
 	'post_editnobbcode_regexp' => '/^\[ 本帖最後由 .*? 於 .*? 編輯 \]\n\n/s',
-	'post_reply' => '回復',
+	'post_reply' => 'Trả lời',
 	'post_thread' => '的帖子',
 
 	'price' => '售價',
-	'pay_view' => '記錄',
+	'pay_view' => 'Trạng thái',
 	'attachment_buy' => '購買',
 
 	'post_trade_yuan' => '元',
@@ -136,10 +136,10 @@ $lang = array
 	'formulaperm_or' => '或者',
 	'formulaperm_extcredits' => '自定義積分',
 
-	'login_normal_mode' => '在線',
+	'login_normal_mode' => 'Trực tuyến',
 	'login_switch_invisible_mode' => '切換在線狀態',
 	'login_switch_normal_mode' => '我要上線',
-	'login_invisible_mode' => '隱身',
+	'login_invisible_mode' => 'Ẩn danh',
 
 	'eccredit_explain' => '解釋',
 
@@ -165,7 +165,7 @@ $lang = array
 	'uch_createalbum' => '創建自己的相冊吧！',
 
 	'pm_from' => '發件人',
-	'pm_to' => '收件人',
+	'pm_to' => 'Người nhận',
 	'pm_date' => '日期',
 
 	'share_message' => '你好！我在 {$_G[setting][bbname]} 看到了這篇帖子，認為很有價值，特推薦給你。\\n\\n$thread[subject]\\n地址 [url={$threadurl}]{$threadurl}[/url]\\n\\n希望你能喜歡。',
@@ -183,13 +183,13 @@ $lang = array
 	'perms_allowvisit' => '訪問論壇',
 	'perms_readaccess' => '閱讀權限',
 	'perms_allowviewpro' => '查看用戶資料',
-	'perms_allowinvisible' => '隱身',
+	'perms_allowinvisible' => 'Ẩn danh',
 	'perms_allowsearch' => '使用搜索',
 	'perms_allownickname' => '使用暱稱',
 	'perms_allowcstatus' => '自定義頭銜',
 	'perms_allowpost' => '發新話題',
 	'perms_allowreply' => '發表回復',
-	'perms_allowpostpoll' => '發起投票',
+	'perms_allowpostpoll' => 'Bình trọn',
 	'perms_allowvote' => '參與投票',
 	'perms_allowpostreward' => '發表懸賞',
 	'perms_allowpostactivity' => '發表活動',

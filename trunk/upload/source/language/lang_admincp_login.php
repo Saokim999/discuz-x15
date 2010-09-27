@@ -9,30 +9,30 @@
 
 $lang = array
 (
-	'login_title' => '登錄管理中心',
-	'login_username' => '用戶名',
-	'login_password' => '密　碼',
+	'login_title' => 'Truy cập trung tâm quản lý',
+	'login_username' => 'Tài khoản',
+	'login_password' => 'Mật khẩu',
 
-	'submit' => '提交',
+	'submit' => 'Submit',
 	'forcesecques' => '必填項',
-	'security_question' => '提　問',
-	'security_answer' => '回　答',
-	'security_question_0' => '無安全提問',
-	'security_question_1' => '母親的名字',
-	'security_question_2' => '爺爺的名字',
-	'security_question_3' => '父親出生的城市',
-	'security_question_4' => '你其中一位老師的名字',
-	'security_question_5' => '你個人計算機的型號',
-	'security_question_6' => '你最喜歡的餐館名稱',
-	'security_question_7' => '駕駛執照最後四位數字',
+	'security_question' => 'Câu hỏi bảo mật',
+	'security_answer' => 'Trả lời',
+	'security_question_0' => 'Không có câu hỏi',
+	'security_question_1' => 'Tên mẹ của bạn.',
+	'security_question_2' => 'Tên người yêu bạn.',
+	'security_question_3' => 'Trường cấp 3 bạn học.',
+	'security_question_4' => 'Quê bạn ở đâu.',
+	'security_question_5' => 'Bạn ghét ai nhất.',
+	'security_question_6' => 'Bạn yêu ai nhất.',
+	'security_question_7' => 'Biển số xe của bạn.',
 
-	'login_tips' => 'Discuz! 是一個採用 PHP 和 MySQL 等多種數據庫構建的高效建站解決方案, 是眾多社區網站首選技術品牌!',
-	'login_nosecques' => '你還沒有使用安全登錄，請在個人中心設置你的安全提問後，再訪問管理中心。你可以 <a href="forum.php?mod=memcp&action=profile&typeid=1" target="_blank">點擊這裡</a> 進入安全提問的設置。',
+	'login_tips' => 'Discuz! Được sử dụng PHP và MySQL. Là công nghệ được ưa thích cho web xã hội!',
+	'login_nosecques' => 'Bạn không sử dụng câu hỏi bảo mật. Hãy thiết lập tại trung tâm an ninh cá nhân của bạn, sau đó truy cập vào trung tâm quản lý. Bạn có thể <a href="forum.php?mod=memcp&action=profile&typeid=1" target="_blank">Click vào đây</a> để thiết lập câu hỏi bảo mật',
 
-	'login_cplock' => '你的管理面板已經鎖定! <br>請在<b> {ltime} </b>秒以後重新訪問管理中心',
-	'login_user_lock' => '由於你的登錄密碼錯誤次數過多,本次登錄請求已經被拒絕. 請 15 分鐘後重新嘗試',
-	'login_cp_noaccess' => '<b>管理中心(或此項操作)尚未對你開放</b><br><br>你的此次操作已經記錄, 請勿非法嘗試',
-	'noaccess' => '後台管理權限(或此項操作)尚未對你開放, 請聯繫站點管理員',
+	'login_cplock' => 'ACP đã bị khóa! <br>Xin chờ<b> {ltime} </b>giây và thử lại.',
+	'login_user_lock' => 'Mật khẩu bạn nhập sai nhiều lần, đang nhập bị khóa. Xin chờ 15 phút rồi thử lại',
+	'login_cp_noaccess' => '<b>Trung tâm Quản lý(Hoặc hoạt động này)Bạn chưa mở</b><br><br>Các hoạt động của bạn đã được ghi lại , Đừng cố gắng thử',
+	'noaccess' => 'Admin đặc quyền(Hoặc hoạt động này) Bạn chưa mở, Vui lòng liên hệ Admin',
 
 
 );

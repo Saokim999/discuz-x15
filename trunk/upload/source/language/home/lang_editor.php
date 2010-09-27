@@ -10,7 +10,7 @@
 $lang = array(
 	'editor_switch_media' => '切換到多媒體',
 	'editor_cut' => '剪切',
-	'editor_copy' => '複製',
+	'editor_copy' => 'Sao chép',
 	'editor_paste' => '粘貼',
 	'editor_font' => '字體',
 	'editor_fontsize' => '字號',

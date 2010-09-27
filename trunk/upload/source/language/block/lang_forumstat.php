@@ -39,7 +39,7 @@ $lang = array
 	'forumstat_onlinemember_allow' => '顯示在線會員統計',
 	'forumstat_onlinemember_order' => '在線會員統計顯示順序',
 	'forumstat_onlinemember_text' => '在線會員統計提示文字',
-	'forumstat_onlinemember_default' => '在線會員:',
+	'forumstat_onlinemember_default' => 'Thành viên trực tuyến:',
 );
 
 ?>

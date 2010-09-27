@@ -11,8 +11,8 @@
 
 $lang = array (
 
-  'all' => '全部',
-  'have' => '已有',
+  'all' => 'Tất cả',
+  'have' => 'Có',
   'homepage' => '首頁',
   'hot' => '熱度',
   'join' => '人參加',
@@ -26,8 +26,8 @@ $lang = array (
   'ranklist_month' => '本月',
   'ranklist_share' => '分享排行',
   'ranklist_thread_favorite' => '收藏',
-  'ranklist_thread_share' => '分享',
-  'ranklist_today' => '今日',
+  'ranklist_thread_share' => 'Chia sẻ',
+  'ranklist_today' => 'Hôm nay',
   'ranklist_update' => '排行榜數據已被緩存，上次於 $lastupdate 被更新，下次將於 $nextupdate 進行更新',
   'ranklist_week' => '本周',
 
@@ -36,7 +36,7 @@ $lang = array (
   'comment_ranklist' => '評論排行',
   'hot_ranklist' => '人氣排行',
   'ranklist' => '排行',
-  'ranklist_thread_view' => '查看',
+  'ranklist_thread_view' => 'Xem',
   'views' => '人氣:',
   'visit_ranklist' => '查看排行',
 
@@ -49,7 +49,7 @@ $lang = array (
   'ranklist_post_day' => '最近 24 小時發帖排行',
   'ranklist_post_month' => '最近 30 天發帖排行',
   'ranklist_reply' => '回復排行',
-  'reply' => '回復',
+  'reply' => 'Trả lời',
 
   'credit_num' => '積分數',
   'credit_ranking' => '積分排行',
@@ -88,7 +88,7 @@ $lang = array (
   'ranklist_handsome' => '帥哥排行',
   'ranklist_member' => '用戶排行',
   'ranklist_post_num' => '發帖數排行',
-  'reminder' => '提示信息',
+  'reminder' => 'Thông báo',
   'self_current_credit' => '你當前的',
   'self_current_friend_num' => '你當前的好友數',
   'show_unitprice' => '競價單價',
@@ -106,12 +106,12 @@ $lang = array (
   'modify' => '修改',
   'month_post_num' => '最近30天發帖數',
   'no_members_of' => '沒有相關成員。',
-  'online' => '在線',
+  'online' => 'Trực tuyến',
   'order' => '排序：',
   'post_num' => '發帖數',
   'posts_num' => '帖子數',
   'say_hi' => '打個招呼',
-  'send_pm' => '發送消息',
+  'send_pm' => 'Gửi tin nhắn',
   'show_credit' => '剩餘競價',
   'show_credit_note' => '競價宣言',
   'visit_friend' => '去串個門',
@@ -132,12 +132,12 @@ $lang = array (
   'blogs' => '日誌',
   'pics' => '圖片',
   'poll' => '投票',
-  'posts' => '帖子',
+  'posts' => 'Bài viết',
   'user' => '用戶',
 
   'author' => '作者',
-  'ranklist_thread_reply' => '回復',
-  'thread' => '主題',
+  'ranklist_thread_reply' => 'Trả lời',
+  'thread' => 'Chủ đề',
 );
 
 ?>
