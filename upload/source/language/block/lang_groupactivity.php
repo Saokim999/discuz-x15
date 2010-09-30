@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_groupactivity.php 13245 2010-07-23 04:04:28Z xupeng $
+ *      $Id: lang_groupactivity.php 17284 2010-09-28 09:58:16Z zhangguosheng $
  */
 
 $lang = array
@@ -57,7 +57,7 @@ $lang = array
 	'groupactivity_special_0' => '普通主題',
 	'groupactivity_special_reward' => '懸賞主題過濾',
 	'groupactivity_special_reward_comment' => '設置特定類型的懸賞主題',
-	'groupactivity_special_reward_0' => 'Tất cả',
+	'groupactivity_special_reward_0' => '全部',
 	'groupactivity_special_reward_1' => '已解決',
 	'groupactivity_special_reward_2' => '未解決',
 	'groupactivity_recommend' => '推薦主題過濾',
@@ -91,6 +91,9 @@ $lang = array
 	'groupactivity_orderby_monthstart' => '按一月內活動開始時間排序',
 	'groupactivity_orderby_weekexp' => '按一周內報名截止時間排序',
 	'groupactivity_orderby_monthexp' => '按一月內報名截止時間排序',
+	'groupactivity_gviewperm' => '群組瀏覽權限',
+	'groupactivity_gviewperm_only_member' => '僅成員',
+	'groupactivity_gviewperm_all_member' => '所有人',
 );
 
 ?>
