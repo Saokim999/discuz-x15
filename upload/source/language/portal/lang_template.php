@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_template.php 16968 2010-09-17 08:50:35Z monkey $
+ *      $Id: lang_template.php 17214 2010-09-26 09:30:39Z shanzongjun $
  *
  *      This file is automatically generate
  */
@@ -170,7 +170,7 @@ $lang = array (
   'push_people' => '推送者',
 
   'action_invalid' => '請選擇要進行的操作',
-  'all' => 'Tất cả',
+  'all' => '全部',
   'article_new' => '新文章',
   'article_not_choose' => '請選擇要操作的文章',
   'article_operation' => '操作',
@@ -211,7 +211,8 @@ $lang = array (
   'article_numbers' => '文章數',
   'category_name' => '分類名稱',
   'category_push_select' => '選擇一個頻道分類：',
-  'portalcp_index_message1' => '您還未被授權管理任何頻道欄目',
+  'portalcp_index_message' => '您還未被授權管理任何頻道欄目',
+  'portalcp_has_no_category' => '您還沒有創建任何頻道欄目',
 
 
   'select_mod' => '選擇模塊',
@@ -234,6 +235,7 @@ $lang = array (
   'move_up' => '上移',
   'selected_tag_selected' => '將選中項標記為已選',
   'wait_select' => '待選',
+  'max_wait_select' => '最多顯示50條',
 
   'link_to_internet' => '網絡鏈接',
   'modify' => '修改',

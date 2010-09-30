@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: search_forum.php 16050 2010-08-31 04:54:54Z wangjinbo $
+ *      $Id: search_forum.php 17248 2010-09-27 09:49:52Z monkey $
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -181,7 +181,7 @@ if(!submitcheck('searchsubmit', 1)) {
 
 			if(!$srchtxt && !$srchuid && !$srchuname && !$srchfrom && !in_array($srchfilter, array('digest', 'top')) && !is_array($special)) {
 				dheader('Location: search.php?mod=forum');
-			} elseif(isset($srchfid) && $srchfid != 'all' && !(is_array($srchfid) && in_array('all', $srchfid)) && empty($forumsarray)) {
+			} elseif(isset($srchfid) && !empty($srchfid) && $srchfid != 'all' && !(is_array($srchfid) && in_array('all', $srchfid)) && empty($forumsarray)) {
 				showmessage('search_forum_invalid', 'search.php?m=forum');
 			} elseif(!$fids) {
 				showmessage('group_nopermission', NULL, array('grouptitle' => $_G['group']['grouptitle']), array('login' => 1));
@@ -380,7 +380,7 @@ if(!submitcheck('searchsubmit', 1)) {
 				$_G['setting']['search']['forum']['maxsearchresults'] = $_G['setting']['search']['forum']['maxsearchresults'] ? intval($_G['setting']['search']['forum']['maxsearchresults']) : 500;
 				$query = DB::query("SELECT ".($srchtype == 'fulltext' ? 'DISTINCT' : '')." t.tid, t.closed, t.author, t.authorid $sqlsrch ORDER BY tid DESC LIMIT ".$_G['setting']['search']['forum']['maxsearchresults']);
 				while($thread = DB::fetch($query)) {
-					if($thread['closed'] <= 1 && (!empty($thread['author']) || empty($thread['authorid']))) {
+					if($thread['closed'] <= 1) {
 						$ids .= ','.$thread['tid'];
 						$num++;
 					}
