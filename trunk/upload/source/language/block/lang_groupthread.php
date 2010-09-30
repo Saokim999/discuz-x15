@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_groupthread.php 13245 2010-07-23 04:04:28Z xupeng $
+ *      $Id: lang_groupthread.php 17284 2010-09-28 09:58:16Z zhangguosheng $
  */
 
 $lang = array
@@ -67,7 +67,7 @@ $lang = array
 	'groupthread_special_reward_comment' => '設置特定類型的懸賞主題',
 	'groupthread_picrequired' => '必須含圖片附件',
 	'groupthread_picrequired_comment' => '設置是否只顯示含有圖片附件的主題',
-	'groupthread_special_reward_0' => 'Tất cả',
+	'groupthread_special_reward_0' => '全部',
 	'groupthread_special_reward_1' => '已解決',
 	'groupthread_special_reward_2' => '未解決',
 	'groupthread_recommend' => '推薦主題過濾',
@@ -90,6 +90,10 @@ $lang = array
 	'groupthread_lastpost_day' => '24小時內',
 	'groupthread_lastpost_week' => '7天內',
 	'groupthread_lastpost_month' => '1個月內',
+	'groupthread_orderby_displayorder' => '按默認順序',
+	'groupthread_gviewperm' => '群組瀏覽權限',
+	'groupthread_gviewperm_only_member' => '僅成員',
+	'groupthread_gviewperm_all_member' => '所有人'
 );
 
 ?>

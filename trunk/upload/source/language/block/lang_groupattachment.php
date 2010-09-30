@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_groupattachment.php 11884 2010-06-18 06:40:35Z xupeng $
+ *      $Id: lang_groupattachment.php 17284 2010-09-28 09:58:16Z zhangguosheng $
  */
 
 $lang = array
@@ -52,7 +52,7 @@ $lang = array
 	'groupattachment_special_0' => '普通主題',
 	'groupattachment_special_reward' => '懸賞主題過濾',
 	'groupattachment_special_reward_comment' => '設置特定類型的懸賞主題',
-	'groupattachment_special_reward_0' => 'Tất cả',
+	'groupattachment_special_reward_0' => '全部',
 	'groupattachment_special_reward_1' => '已解決',
 	'groupattachment_special_reward_2' => '未解決',
 	'groupattachment_orderby' => '附件排序方式',
@@ -69,6 +69,9 @@ $lang = array
 	'groupattachment_dateline_day' => '最近24小時',
 	'groupattachment_dateline_week' => '最近1周',
 	'groupattachment_dateline_month' => '最近1月',
+	'groupattachment_gviewperm' => '群組瀏覽權限',
+	'groupattachment_gviewperm_only_member' => '僅成員',
+	'groupattachment_gviewperm_all_member' => '所有人',
 );
 
 ?>
